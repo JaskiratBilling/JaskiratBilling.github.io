@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaskirat Billing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .left-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: -12.5%;
+        }
+
+        .right-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .name {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .profile-image {
+            max-width: 500px;
+            height: auto;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .image-caption {
+            font-size: 0.6rem;
+            color: #666;
+            text-align: right;
+            margin: 0;
+            font-style: italic;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.05rem;
+            align-items: center;
+        }
+
+        .button {
+            background: none;
+            border: none;
+            color: #333;
+            padding: 12px 24px;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: inherit;
+            text-align: center;
+        }
+
+        .button:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .content-container {
+                flex-direction: column;
+                gap: 2rem;
+            }
+            
+            .left-content {
+                align-items: center;
+            }
+            
+            .name {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            .buttons {
+                align-items: center;
+            }
+            
+            .button {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <div class="left-content">
+            <h1 class="name">Jaskirat Billing</h1>
+            
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/jaskirat-billing/" class="button" target="_blank">LinkedIn</a>
+                <a href="https://unsplash.com/@jaskirat_billing" class="button" target="_blank">Photography</a>
+                <a href="Jaskirat Billing, Resume.pdf" class="button" target="_blank">Resume</a>
+                <a href="https://github.com/JaskiratBilling" class="button" target="_blank">GitHub</a>
+            </div>
+        </div>
+        
+        <div class="right-content">
+            <div class="image-container">
+                <img src="download.png" alt="Profile Image" class="profile-image">
+                <p class="image-caption">Landscape with River, Louis-Aimé Japy (1840–1916). Oil on canvas.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
